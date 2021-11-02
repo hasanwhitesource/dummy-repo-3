@@ -1,10 +1,7 @@
 package main
 
-import ("fmt"
-cue "github.com/hasanwhitesource/dummy-repo-1"
-)
+import "github.com/hasanwhitesource/dummy-repo-1/smith"
 
-
-func main(){
-		fmt.Println("hello world")
+func main() {
+	smith.SmithPrinter(" tyson")
 }
